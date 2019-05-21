@@ -37,36 +37,7 @@ module.exports = {
 
       // fallback
       '/': [
-        ['/', 'Home'],
-        {
-          title: 'Website',
-          collapsable: false,
-          children: [
-            ['/website/', 'Intro']
-          ]
-        },
-        {
-          title: 'Office',
-          collapsable: false,
-          children: [
-            ['/office/', 'Intro'],
-            ['/office/brand/', 'Brand'],
-          ]
-        },
-        {
-          title: 'Equipment',
-          collapsable: false,
-          children: [
-            ['/equipment/', 'Intro']
-          ]
-        },
-        {
-          title: 'APWA',
-          collapsable: false,
-          children: [
-            ['/apwa/', 'Intro']
-          ]
-        }
+        ''
       ]
     },
     displayAllHeaders: true,
