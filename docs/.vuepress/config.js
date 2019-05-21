@@ -13,9 +13,8 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'General', link: '/brand' },
       { text: 'Website', link: '/website/' },
-      { text: 'Office', link: '/office/' },
       { text: 'Equipment', link: '/equipment/' },
       { text: 'APWA', link: '/apwa/' }
     ],
@@ -33,7 +32,6 @@ module.exports = {
 
       // fallback
       '/': [
-        '',
         'brand',
         'forms'
       ]
