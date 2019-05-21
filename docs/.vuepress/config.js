@@ -24,10 +24,6 @@ module.exports = {
         '',
         'test',
       ],
-      '/office/': [
-        '',
-        'brand',
-      ],
       '/equipment/': [
         '',
       ],
@@ -37,7 +33,9 @@ module.exports = {
 
       // fallback
       '/': [
-        ''
+        '',
+        'brand',
+        'forms'
       ]
     },
     displayAllHeaders: true,
