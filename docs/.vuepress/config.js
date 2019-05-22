@@ -21,13 +21,23 @@ module.exports = {
     sidebar: {
       '/website/': [
         '',
-        'test',
+        'theme',
+        'users',
+        'training',
+        'research'
       ],
       '/equipment/': [
         '',
+        'logging',
+        'purchases',
+        'surplus'
       ],
       '/apwa/': [
         '',
+        'events',
+        'sliders',
+        'sponsors',
+        'documents'
       ],
 
       // fallback

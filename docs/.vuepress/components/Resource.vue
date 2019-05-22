@@ -36,6 +36,7 @@ export default {
     margin-bottom: 20px;
   }
   .preview {
+    display: block;
     width: 200px;
     height: auto;
   }
