@@ -16,7 +16,7 @@ ITRE colors match the NC State Base colors, with the Wolf Pack Red as the main c
 
 ## Typography
 
-The ITRE typeface for logos, business cards, and other printed materials is Futura, with Garamond as a body font for materials with large amounts of text. On the web, the [NC State Typography](https://brand.ncsu.edu/typography/) standards should be used instead.
+The ITRE typeface for logos, business cards, and other printed materials is Futura, with Garamond as a body font for materials with large amounts of text. On the web, the [NC State Typography](https://brand.ncsu.edu/typography/) standards should be used instead. NC State's Univers font can be substituted at the designer's discretion.
 
 <Typography :fonts="[{name: 'Futura', size: 13}, {name: 'Garamond', size: 16}]" />
 
@@ -26,6 +26,22 @@ The above fonts are primarily for printed material. When designing ITRE material
 
 ## Logo
 The ITRE logo should be used on all official ITRE materials, both digital and print. Please follow best accessibility practices when using the logo, such as choosing a logo with sufficient contrast and including alt text when displaying the logo online. Further variations of this logo can be found on the ITRE Public Shared Drive.
+
+<Resource name="ITRE Logo" preview="logo" :files="[
+  {text:'Illustrator', link:'logo.eps'},
+  {text:'PNG', link:'logo.png'},
+  {text:'SVG', link:'logo.svg'},
+  {text:'Inverse PNG', link:'inverse-logo.png'},
+  {text:'Inverse SVG', link:'inverse-logo.svg'}
+]" />
+
+<Resource name="ITRE IT & Web Logo" preview="it-web-logo" :files="[
+  {text:'Illustrator', link:'it-web-logo.eps'},
+  {text:'PNG', link:'it-web-logo.png'},
+  {text:'SVG', link:'it-web-logo.svg'},
+  {text:'Inverse PNG', link:'it-web-logo-inverse.png'},
+  {text:'Inverse SVG', link:'it-web-logo-inverse.svg'}
+]" />
 
 ## Materials
 Some ITRE materials, such as business cards and presentation templates, have been pre-generated for your use. Copies can also be found on the ITRE Public Shared Drive.
