@@ -1,6 +1,6 @@
 <template>
   <div class="resource">
-    <picture class="preview" :data-alt="name">
+    <picture v-if="preview" class="preview" :data-alt="name">
       <source :srcset="'/images/'+preview+'.png'" type="image/png">
       <source :srcset="'/images/'+preview+'.webp'" type="image/webp">
       <img :src="'/images/'+preview+'.png'" :alt="name">

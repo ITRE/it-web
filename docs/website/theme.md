@@ -33,8 +33,18 @@ Several plugins are in use in the Wordpress site, many on the recommendation of 
 | TablePress                         | Better tables. Mostly used for FEP and HEC pages                                          | Free |
 | Ultimate Google Analytics          | Analytics code handling.                                                                  | Free |
 
+
+## Extended Content
+Poulton uses ACF fields for their Extended Content theme which is used on many of the ITRE website pages. This allows for flexible rows and columns without much programing, but does come with a few details to keep in mind. Extended Content fields replace the default content field on the front end but don't hide the default content box on the back end. This means you may accidentally change content in the top box (the default box) that your user will not see. Make sure when editing content on a page using the Extended Content template that you are editing the ACF fields found lower on the editing screen.
+
+You may also find that sometimes the preview for these pages does not properly display your changes. In this case simply publish the changed page and view it that way, making any additional changes as necessary. If you make a change that breaks something or is otherwise too time intensive to change back, you can use the previous Wordpress revision to roll the page back to an earlier state.
+
+<Resource name="Wordpress Editing Guidelines" preview="wordpress" :files="[
+  {text:'PDF', link:'Wordpress] Editing.pdf'}
+]" />
+
 ## Gutenberg
-Wordpress recently made large scale changes to their core code with the Gutenberg update. NC State IT is currently evaluating it for accessibility but efforts need to be made to adjust the ITRE site to Gutenberg and train relevant staff on its use.
+Wordpress recently made large scale changes to their core code with the Gutenberg update. NC State IT is currently evaluating it for accessibility but efforts will be needed in the future to adjust the ITRE site to Gutenberg and train relevant staff on its use. The NC State [Web Developers Group](group-webdevelopers@ncsu.edu) is a good way to receive updates on this process and be aware of upcoming training being offered. This group also meets on most Friday afternoons for Co-Working in Avent Ferry Technology Center Room 106, 2114 Avent Ferry Road.
 
 ## Resources
 [OIT Web Services](https://design.oit.ncsu.edu)
@@ -45,4 +55,5 @@ Wordpress recently made large scale changes to their core code with the Gutenber
 ::: warning
 The Multiauth plugin has reached End-Of-Life and is unsupported.
 :::
-[]()
+
+[NC State Wordpress Github](https://github.ncsu.edu/ncstate-wordpress)

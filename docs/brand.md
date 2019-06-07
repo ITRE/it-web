@@ -18,6 +18,12 @@ ITRE colors match the NC State Base colors, with the Wolf Pack Red as the main c
 
 The ITRE typeface for logos, business cards, and other printed materials is Futura, with Garamond as a body font for materials with large amounts of text. On the web, the [NC State Typography](https://brand.ncsu.edu/typography/) standards should be used instead. NC State's Univers font can be substituted at the designer's discretion.
 
+::: tip Using Fonts Locally
+ITRE fonts are available for use on your local machine through your Adobe Creative Cloud license. NCSU fonts must be requested from the university for local use and are only publicly available online.
+
+[Futura](https://fonts.adobe.com/fonts/futura-pt) | [Garamond](https://fonts.adobe.com/fonts/adobe-garamond) | [NC State Branding](mailto:ncstatebrand@ncsu.edu)
+:::
+
 <Typography :fonts="[{name: 'Futura', size: 13}, {name: 'Garamond', size: 16}]" />
 
 ::: warning Typography on the Web

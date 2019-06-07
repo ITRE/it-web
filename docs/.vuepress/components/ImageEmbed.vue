@@ -36,4 +36,8 @@ export default {
   .preview img {
     width: 100%;
   }
+  h2,
+  h3 {
+    clear: both;
+  }
 </style>
