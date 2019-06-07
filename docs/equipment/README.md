@@ -23,6 +23,10 @@ A move to WolfTech AD has been proposed and may be instituted in the near future
   {text:'PDF', link:'Conference\ Camera.pdf'}
 ]" />
 
-<Resource name="Generic Account Two-Facor Documentation" preview="2factor" :files="[
+<Resource name="2-Facor Documentation" preview="2-factor-guide" :files="[
+  {text:'PDF', link:'2-Factor.pdf'}
+]" />
+
+<Resource name="Generic Account 2-Facor Documentation" preview="2factor" :files="[
   {text:'PDF', link:'Generic\ 2Factor.pdf'}
 ]" />

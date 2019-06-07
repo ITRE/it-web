@@ -1,5 +1,5 @@
 <template>
-  <picture :class="'preview '+classes" :data-alt="name">
+  <picture :class="'img-preview '+classes" :data-alt="name">
     <source :srcset="'/images/'+preview+'.png'" type="image/png">
     <source :srcset="'/images/'+preview+'.webp'" type="image/webp">
     <img :src="'/images/'+preview+'.png'" :alt="name">
@@ -18,22 +18,22 @@ export default {
 </script>
 
 <style>
-  .preview {
+  .img-preview {
     display: block;
     margin: 20px;
     width: 100%;
   }
-  .preview.left,
-  .preview.right {
+  .img-preview.left,
+  .img-preview.right {
     max-width: 50%;
   }
-  .left {
+  .img-preview.left {
     float: left;
   }
-  .right {
+  .img-preview.right {
     float: right;
   }
-  .preview img {
+  .img-preview img {
     width: 100%;
   }
   h2,
