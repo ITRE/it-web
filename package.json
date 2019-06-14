@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "gulp assets; vuepress build docs"
+    "docs:build": "gulp assets; vuepress build docs"
   },
   "dependencies": {
     "del": "^4.1.1"
